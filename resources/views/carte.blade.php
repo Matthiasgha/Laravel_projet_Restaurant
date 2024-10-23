@@ -1,5 +1,5 @@
 @extends('base')
-
+@section('title', 'Carte')
 @section('content')
 <h1>Toutes notre selection</h1>
 <div class="plats--contenair">

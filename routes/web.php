@@ -14,3 +14,8 @@ Route::get('/carte', [CarteController::class,'index'])->name('carte');
 Route::get('/mentions', [MentionsController::class,'index'])->name('mentions');
 
 Route::get('/carte', [CarteController::class,'index'])->name('carte');
+
+Route::get('/test', function(){
+    return view ('enfant');
+});    
+// affiche ma vue enfant.blade.php

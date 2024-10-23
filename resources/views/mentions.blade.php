@@ -1,5 +1,5 @@
 @extends('base')
-    
+@section('title', 'Mentions Légal')
 @section('content')
 <h1>Mentions légal</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perspiciatis omnis odit illum porro et provident repellendus reiciendis quaerat maiores vero doloremque, tenetur, mollitia sit. Fugit ut necessitatibus animi ab.
