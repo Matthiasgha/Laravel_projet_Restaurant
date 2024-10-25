@@ -9,12 +9,12 @@ class HomeController extends Controller
 {
     function index() {
         $title = 'Accueil';
-        $actu = Actu::find(1);
+        $actus = Actu::find(1);
 
         // charge la page home.blade.php
         return view('home', [
             'title' => $title,
-            'actu' => $actu,
+            'actu' => $actus,
         ]);
     }
 }

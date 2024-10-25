@@ -1,16 +1,20 @@
 @extends('base')
-@section('title', 'Carte')
+@section('title', $title)
 @section('content')
 <h1>Toutes notre selection</h1>
    
 @foreach ($produits as $produit)
 <ul>
    <li>
-      {{$produit->id}}
-      {{$produit->titre}}
-      {{$produit->description_boisson}}
-   </li>
-</ul>   
+    <div class="plats--contenair">
+        <div class="contenair--card">
+        <img class="contenair--card--image" src="" alt="image">
+        <h2 class="contenair--card--h2">{{$produit->titre}}</h2>
+        <p>{{$produit->description}} </p>
+        <p>{{$produit->prix}}</p>
+        </div>
+    </div> 
+  
    
 @endforeach
 @endsection
