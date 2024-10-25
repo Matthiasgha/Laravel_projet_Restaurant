@@ -11,19 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('actus', function (Blueprint $table) {
+        Schema::create('produits', function (Blueprint $table) {
             $table->id();
-            // titre (varchar)
             $table->string('titre');
-            // image (varchar)
-            $table->string('image');
-            // message (text)
-            $table->text('message');
-            // date publication (timestamp)
-            $table->timestamp('date_publication');
+            $table->string('description_plat');
+            $table->string('image_plat');
+            $table->string('image_boisson');
+            $table->string('description_boisson');
             $table->timestamps();
-            
         });
+        
     }
 
     /**
@@ -31,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('actus');
+        Schema::dropIfExists('produit');
     }
 };

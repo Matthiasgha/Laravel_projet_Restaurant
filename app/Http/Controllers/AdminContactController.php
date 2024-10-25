@@ -10,8 +10,9 @@ class AdminContactController extends Controller
     function index(){
         $contacts = Contact::get();
         // charge la page admin/contact.blade.php
-        return view('admin/contact' ,[
-            'contacts'->$contacts,
+        return view('admin/contact', [
+            'contacts' => $contacts,
         ]);
     }
+    
 }

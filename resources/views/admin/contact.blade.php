@@ -6,9 +6,10 @@
    @foreach ($contacts as $contact)
    <ul>
       <li>
-         {{$contacts -> id}}
-         {{$contacts -> mail}}
+         {{$contact->id}}
+         {{$contact->mail}}
       </li>
-   </ul>      
+   </ul>   
+      
    @endforeach
 @endsection

@@ -3,10 +3,10 @@
 @section('content')
 <h1>{{$title}}</h1>
 <h2>Palais des Épices</h2>
-{{-- <h2>{{ $actu->titre }}</h2>
+<h2>{{ $actu->titre }}</h2>
 <div>{{ $actu->image }}</div>
 <p>{{ $actu->message }}</p>
-<p>{{ $actu->date_publication }}</p> --}}
+<p>{{ $actu->date_publication }}</p>
 @endsection
 
 {{-- <p>Description : Le Palais des Épices est un restaurant indien chaleureux et 

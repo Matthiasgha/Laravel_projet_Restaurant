@@ -9,7 +9,6 @@ class HomeController extends Controller
 {
     function index() {
         $title = 'Accueil';
-
         $actu = Actu::find(1);
 
         // charge la page home.blade.php

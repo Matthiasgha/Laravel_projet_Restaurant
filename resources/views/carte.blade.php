@@ -2,6 +2,22 @@
 @section('title', 'Carte')
 @section('content')
 <h1>Toutes notre selection</h1>
+   
+@foreach ($produits as $produit)
+<ul>
+   <li>
+      {{$produit->id}}
+      {{$produit->titre}}
+      {{$produit->description_boisson}}
+   </li>
+</ul>   
+   
+@endforeach
+@endsection
+
+
+
+
 {{-- <div class="plats--contenair">
     <div class="contenair--card">
     <img class="contenair--card--image" src="" alt="image">
@@ -34,4 +50,3 @@
     <img src="" alt="image">
     <h2>Plat 3</h2>
 </div> --}}
-@endsection
