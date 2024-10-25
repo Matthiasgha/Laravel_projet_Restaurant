@@ -14,9 +14,9 @@
         </div>
         <nav>
            <ul>
-            <li><a href="{{route('home') }}">Acceuil</a></li>
-            <li><a href="{{route('carte') }}">Carte</a></li>
-            <li><a href="{{route('contact') }}">Contact</a></li>
+            <li><a href="{{route('home.index') }}">Acceuil</a></li>
+            <li><a href="{{route('carte.index') }}">Carte</a></li>
+            <li><a href="{{route('contact.index') }}">Contact</a></li>
            </ul>
     </header>
     @section('content')
@@ -32,7 +32,7 @@
             <li>Acme Food</li>
             <li>Copyright 2024</li>
             <li>Tous droits réservés</li>
-            <li><a href="{{route('mentions') }}">Mentions légale</a></li>
+            <li><a href="{{route('mentions.index') }}">Mentions légale</a></li>
         </ul>
     </footer> 
 </body>

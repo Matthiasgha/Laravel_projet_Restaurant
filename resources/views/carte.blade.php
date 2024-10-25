@@ -2,7 +2,7 @@
 @section('title', 'Carte')
 @section('content')
 <h1>Toutes notre selection</h1>
-<div class="plats--contenair">
+{{-- <div class="plats--contenair">
     <div class="contenair--card">
     <img class="contenair--card--image" src="" alt="image">
     <h2 class="contenair--card--h2">Poulet Tikka Masala</h2>
@@ -17,7 +17,7 @@
     <img class="contenair--card--image" src="" alt="image">
     <h2 class="contenair--card--h2">Palak Paneer</h2>
     </div>
-</div>
+</div> --}}
 {{-- <div>
     <img src="" alt="image">
     <h2>Plat 1</h2>

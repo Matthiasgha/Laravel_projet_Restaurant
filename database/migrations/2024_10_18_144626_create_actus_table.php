@@ -22,7 +22,6 @@ return new class extends Migration
             // date publication (timestamp)
             $table->timestamp('date_publication');
             $table->timestamps();
-            
         });
     }
 
